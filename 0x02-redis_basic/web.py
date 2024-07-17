@@ -38,4 +38,4 @@ def get_page(url: str) -> str:
     response = requests.get(url)
     html_content = response.text
 
-    return html_contento
+    return html_contentp
